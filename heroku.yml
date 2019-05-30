@@ -1,0 +1,6 @@
+
+build:
+    docker:
+        youdea: ./youdea/Dockerfile
+run:
+    youdea: sh entrypoint.prod.sh
